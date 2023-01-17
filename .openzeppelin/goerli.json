@@ -1,0 +1,108 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xccbE8f20d60aBc470b7fdC993144efd3B275F4B5",
+      "txHash": "0x839d2eb31bc3eb7036301361a9813640062fa1f1a860c242119c2f59ab8cf726",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "b2aab3912416c44343557d71494f44bf4ec0cccd78b154b1248bb64acdcb0388": {
+      "address": "0x77E5dC9F8EE7592e5fE06fBE3820f14455FFd812",
+      "txHash": "0x62ef6a1bb39e1718c84f7f5f15ed302093532e46be14a8058f7f98b24b5927f9",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "contract": "MyntistNFTMarketplace",
+            "label": "wbnbAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/Marketplace.sol:14"
+          },
+          {
+            "contract": "MyntistNFTMarketplace",
+            "label": "myntistTokenAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/Marketplace.sol:15"
+          },
+          {
+            "contract": "MyntistNFTMarketplace",
+            "label": "seenNonces",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_bool))",
+            "src": "../project:/contracts/Marketplace.sol:21"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_bool))": {
+            "label": "mapping(address => mapping(uint256 => bool))"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    }
+  }
+}
